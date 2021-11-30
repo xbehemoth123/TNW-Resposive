@@ -1,4 +1,6 @@
-
+*{ margin: 0;
+    padding: 0;
+}
 
 ul{
     list-style: none;
@@ -16,7 +18,7 @@ a{
 .scroll {
     margin:4px, 4px;
     padding:4px;
-    width: 250px;
+    width: 360px;
     height: 700px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -94,7 +96,7 @@ background-color: white;
 .grid-articles {
     grid-template-areas: "article-left article-left article-left article-right article-right article-right";
     justify-items: right;
-    padding:5rem 10rem;
+    padding:5rem 25rem;
 }
 
 .grid-articles a {
@@ -158,7 +160,6 @@ background-color: white;
 }
 
 
-
 .article-four {
     background: url(/assets/images/image4.jpeg) no-repeat;
     background-size: cover;
@@ -199,7 +200,7 @@ background-color: white;
 
 .trending-articles {
     background-color: #f7f8f8;
-    padding: 5rem 7rem;
+    padding: 5rem 15rem;
 }
 
 .trending-item {
@@ -266,7 +267,7 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
 
 .chanels {
     background-color: #f7f8f8;
-    padding:6rem 11rem;
+    padding:6rem 20rem;
 }
 .chanels-title{
     font-size: 34px;
@@ -326,7 +327,9 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
 
 .title-video {
     font-size: 36px;
-    padding: 5rem 21rem;
+    padding-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 2%;
     font-weight: bold;
 }
 
@@ -342,7 +345,7 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
  
 
 .video-playlist div {
-    width: 190px;
+    width: 270px;
     font-weight: 500;
 }
 
@@ -392,7 +395,7 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
     background: url(/assets/images/sponsors.png) no-repeat;
     background-size: cover;
     height: 88px;
-    width: 1280px;
+    width: 1680px;
     align-self: center;
 }
 
