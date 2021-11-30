@@ -349,8 +349,94 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
 .video-section {
     background-color: #f7f8f8;
     padding-bottom: 5rem;
+
+}
+.under-left {
+    max-width: 50%;
 }
 
 .under-video{
-    
+    padding: 5rem 20.5rem ;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.under-reach {
+    font-size: 16px;
+    color: rgba(214, 4, 214, 0.801);
+    margin-bottom: 1rem;
+}
+.under-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+.under-text
+{
+    font-size: 16px;
+    color: rgb(66, 61, 61);
+    margin-bottom: 2rem;
+
+}
+.btn-touch {
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    background-color: #00cccc;
+    color: white;
+}
+
+.sponsors {
+    margin-top: 3rem;
+    background: url(/assets/images/sponsors.png) no-repeat;
+    background-size: cover;
+    height: 88px;
+    width: 1280px;
+    align-self: center;
+}
+
+.prefooter {
+    background-color: black;
+}
+ .prelogo {
+     padding-top: 2rem;
+     padding-left: 20rem;
+ }
+ 
+ .more{
+     padding-left: 25rem;
+ }
+ .about {
+     padding-left: 10rem;
+ }
+.more li, .about li {
+    margin-bottom: 0.6rem;
+}
+ .more a
+ , .about a{
+     color: turquoise;
+     font-size: 18px;
+ 
+ }
+ .more div, 
+ .about div {
+     color:white;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-bottom: 1rem;
+ }
+ .prefooter {
+     border-bottom: solid 1px gray;
+ }
+
+ .footer {
+     background-color: black;
+     color: grey;
+     text-align: center;
+     padding: 5rem 0;
+ }
+.footer a {
+    color:white;
 }
