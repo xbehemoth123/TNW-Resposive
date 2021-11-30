@@ -432,6 +432,7 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
  }
  .prefooter {
      border-bottom: solid 1px gray;
+     padding: 2rem 0;
  }
 
  .footer {
