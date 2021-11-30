@@ -4,12 +4,14 @@
 
 ul{
     list-style: none;
+    display: inline-block;
 }
 
 body{
     font-family: sans-serif; 
     margin: 0 auto;
     padding-bottom: 1rem; 
+    max-width: 100%;
 }
 a{
     text-decoration: none;
@@ -51,6 +53,7 @@ padding: 0 1rem;
 }
 
 .menu {
+    position: relative;
     justify-content: space-between;
     gap: 2rem;
     text-transform: uppercase;
@@ -58,6 +61,7 @@ padding: 0 1rem;
     font-family: Shentox, sans-serif;
     color: rgba(0, 0, 0, 0.644);
 }
+
 .content ul li:hover {
     color: black;
     cursor: pointer;
@@ -443,4 +447,76 @@ text-decoration: underline solid 2px rgba(255, 0, 255, 0.24);
  }
 .footer a {
     color:white;
+}
+
+
+@media screen and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body div {
+        max-width: 400px;
+    }
+
+    #btn-logo {
+        display: inline-block; 
+    }
+    .content ul, .content:active ul {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        padding: 10px;
+        background: #f7f8f8;
+        right: 10px;
+        top: 2rem;
+        width: 43%;
+        opacity: 0.92;
+    }
+
+    .content:hover ul {
+        display: block;
+
+    }
+    .content li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .content li a {
+        text-align: center;
+        display: inline-block;
+    }
+    .grid-logo {
+        grid-template-columns:1fr;
+        grid-template-rows: 2.2fr 1.2fr;
+        grid-template-areas: 
+        "logo-large"
+        "logo-text";
+    }
+
+
+    
+    .grid-articles {
+        grid-template-columns:1fr;
+        grid-template-rows: 8.2fr 8.2fr;
+        grid-template-areas: 
+        "article-left"
+        "article-right";
+        padding: 0;
+        margin: 0;
+    }
+    .grid-articles div {
+        width: 400px;
+        padding: 0;
+    }
+
+    .wrap {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
 }
